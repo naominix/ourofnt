@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<!--
+	NOTES:
+	1. All tokens are represented by '$' sign in the template.
+	2. You can write your code only wherever mentioned.
+	3. All occurrences of existing tokens will be replaced by their appropriate values.
+	4. Blank lines will be removed automatically.
+	5. Remove unnecessary comments before creating your template.
+-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="authoring-tool" content="Adobe_Animate_CC">
+<style type="text/css">
+<!--
+#animation_container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+-->
+</style>
+<title>hatake</title>
+<!-- write your code here -->
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script>
+(function (cjs, an) {
+var p; // shortcut to reference prototypes
+var lib={};var ss={};var img={};
+lib.ssMetadata = [
+		{name:"hatake_atlas_1", frames: [[0,0,400,379],[0,381,400,300],[0,683,400,300]]}
+];
+(lib.AnMovieClip = function(){
+	this.actionFrames = [];
+	this.gotoAndPlay = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndPlay.call(this,positionOrLabel);
+	}
+	this.play = function(){
+		cjs.MovieClip.prototype.play.call(this);
+	}
+	this.gotoAndStop = function(positionOrLabel){
+		cjs.MovieClip.prototype.gotoAndStop.call(this,positionOrLabel);
+	}
+	this.stop = function(){
+		cjs.MovieClip.prototype.stop.call(this);
+	}
+}).prototype = p = new cjs.MovieClip();
+// symbols:
+(lib.畑 = function() {
+	this.initialize(ss["hatake_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.双葉 = function() {
+	this.initialize(ss["hatake_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.双葉2 = function() {
+	this.initialize(ss["hatake_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+// helper functions:
+function mc_symbol_clone() {
+	var clone = this._cloneProps(new this.constructor(this.mode, this.startPosition, this.loop, this.reversed));
+	clone.gotoAndStop(this.currentFrame);
+	clone.paused = this.paused;
+	clone.framerate = this.framerate;
+	return clone;
+}
+function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
+	var prototype = cjs.extend(symbol, cjs.MovieClip);
+	prototype.clone = mc_symbol_clone;
+	prototype.nominalBounds = nominalBounds;
+	prototype.frameBounds = frameBounds;
+	return prototype;
+	}
+(lib.シンボル6 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// レイヤー_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#009900").ss(0.5,0,0,4).p("AbY0jQAUgCAVgCAHvpOQF4lQH5idQACgBADAAQAdgKAdgJAVlw8IIIh3AbY0jQFUgCBaCdQyFJupwBxIhsEnQgCAGgBAHQjKKJARMUIiIAAQgGqEC/tfIADgcQgHhaiYgwQgNAzinAyI/NieIA7hdICIh8QPTpIPOJtIDmFLIA6g5ICBnOQILnRNLhIgA9xpAQQFiZLhEF");
+	this.shape.setTransform(218.036,131.975);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.lf(["#69BB00","#83AA3A","#CBCD33","#6BE533"],[0,0.204,0.604,0.863],-218.1,0,218.1,0).s().p("AggUmQgGqEC/teIADgdQgHhZiYgwQgNAyinAzI/NifIA7hcICIh8QPTpIPOJsIDmFMIA6g6ICBnNQILnSNLhIQFUgBBaCcQyFJvpwBxIhsEmIgDANQjKKKARMTgAiMnVQnRilpGAAIAAAAIAAAAQlUAAl7A4QF7g4FUAAIAAAAIAAAAQJGAAHRClIAAAAgAVkw+IgFABQn5Cel4FPQF4lPH5ieIAFgBIA6gSIg6ASgAVkw+IIIh3g");
+	this.shape_1.setTransform(218.125,132.1493);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this._renderFirstFrame();
+}).prototype = getMCSymbolPrototype(lib.シンボル6, new cjs.Rectangle(-1,-1,438.3,266), null);
+(lib.シンボル5 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// レイヤー_1
+	this.instance = new lib.双葉2();
+	this.instance.setTransform(0,0,1.46,1.46);
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
+	this._renderFirstFrame();
+}).prototype = getMCSymbolPrototype(lib.シンボル5, new cjs.Rectangle(0,0,584,438), null);
+(lib.シンボル4 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// レイヤー_1
+	this.instance = new lib.双葉();
+	this.instance.setTransform(0,0,0.1799,0.1799);
+	this.instance_1 = new lib.双葉();
+	this.instance_1.setTransform(0,0,0.1799,0.1799);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this._renderFirstFrame();
+}).prototype = getMCSymbolPrototype(lib.シンボル4, new cjs.Rectangle(0,0,72,54), null);
+(lib.シンボル3 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// レイヤー_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#009900").ss(2,0,0,4).p("AaK0SQAUgCAVgCAGxpHQBwhjB7hUQEfjDFchsQACgBADAAQAdgKAdgIAUcwuIIBh2AaK0SQFQgCBZCbQtjHSo0CxQizA4iUAbIhqEiQgDAHgBAGQhVERgtEpQg+GSAKG/IiGAAQgEmBBEnQQArkuBLlQIADgdQgFg7hEgoIgBAAQgDgCgDAAQgngQgJgEQgKgDgSgKQgcAsisgBI8trdIBThGICjhNQGbhjFpA8QJYBkHNIfIBCDFIBZCAIA5g5ICAnIQCdiLC5hoQGrjuJDgxgAAbk4QgEgBgDgBA76xZQGAA7FHBnQIaCoGBEf");
+	this.shape.setTransform(209.3552,130.275);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.lf(["#69BB00","#83AA3A","#CBCD33","#6BE533"],[0,0.204,0.604,0.863],-209.6,0,209.7,0).s().p("AhYUVQgDmABDnQQArkvBLlQIAEgcQgFg7hFgoIAAgBQgDgCgEAAIgwgTQgKgEgSgKQgbAtisgCI8trcIBThGICjhNQGbhkFpA9QJYBjHMIgIBDDEIBZCAIA5g5ICAnHQCdiMC5hnQGqjvJDgxQFQgBBZCaQtjHTozCxQizA3iVAbIhqEjIgDANQhWEQgtEqQg+GSAKG+gAw1u5QIaCpGAEfQmAkfoaipQlIhmmAg8QGAA8FIBmgAUawwIgFACQlcBskfDDQh8BThvBkQBvhkB8hTQEfjDFchsIAFgCIA5gSIg5ASgAUawwIIBh1g");
+	this.shape_1.setTransform(209.625,130.4493);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this._renderFirstFrame();
+}).prototype = getMCSymbolPrototype(lib.シンボル3, new cjs.Rectangle(-1.9,-1,422.5,262.6), null);
+(lib.畑_1 = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = true; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// レイヤー_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#000000").ss(0.5,1,1).p("AKlnPICLCFIslMcIs6sjICNiAIKvKlg");
+	this.shape.setTransform(81.575,46.575);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#000000").s().p("AsvlRICNiAIKvKlIKYqjICLCFIslMcg");
+	this.shape_1.setTransform(81.575,46.575);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this._renderFirstFrame();
+}).prototype = getMCSymbolPrototype(lib.畑_1, new cjs.Rectangle(-1,-1,165.2,95.2), null);
+// stage content:
+(lib.もと畑B_HTML5Canvas = function(mode,startPosition,loop,reversed) {
+if (loop == null) { loop = false; }
+if (reversed == null) { reversed = false; }
+	var props = new Object();
+	props.mode = mode;
+	props.startPosition = startPosition;
+	props.labels = {};
+	props.loop = loop;
+	props.reversed = reversed;
+	cjs.MovieClip.apply(this,[props]);
+	// flash0_ai
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f().s("#00A1E9").ss(1,0,0,4).p("AkcBHIFTAAIAABjIDjiqIjjipIAABjIlTAAg");
+	this.shape.setTransform(370.65,358.3281,0.8333,0.8333);
+	this.shape_1 = new cjs.Shape();
+	this.shape_1.graphics.f("#00A1E9").s().p("AA5BHIlTAAIAAiNIFTAAIAAhjIDiCpIjiCqg");
+	this.shape_1.setTransform(370.5116,358.3274,0.8333,0.8333);
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.shape_1},{t:this.shape}]},75).to({state:[]},3).to({state:[{t:this.shape_1},{t:this.shape}]},4).wait(5));
+	// 地図記号
+	this.instance = new lib.畑_1();
+	this.instance.setTransform(77.75,180.3,3.6434,3.6434);
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({_off:true},15).wait(46).to({_off:false,regY:0.1,scaleX:2.0953,scaleY:2.0953,x:185.8,y:225.55},0).wait(1).to({regX:81.6,regY:46.6,scaleX:2.0923,scaleY:2.0923,x:373.6,y:327.15},0).wait(1).to({scaleX:2.0894,scaleY:2.0894,x:390.45,y:331.3},0).wait(1).to({scaleX:2.0865,scaleY:2.0865,x:407.3,y:335.5},0).wait(1).to({scaleX:2.0836,scaleY:2.0836,x:424.15,y:339.65},0).wait(1).to({scaleX:2.0806,scaleY:2.0806,x:441.05,y:343.8},0).wait(1).to({scaleX:2.0777,scaleY:2.0777,x:457.9,y:347.95},0).wait(1).to({scaleX:2.0748,scaleY:2.0748,x:474.75,y:352.15},0).wait(1).to({scaleX:2.0718,scaleY:2.0718,x:491.6,y:356.3},0).wait(1).to({scaleX:2.0689,scaleY:2.0689,x:508.45,y:360.45},0).wait(1).to({scaleX:2.066,scaleY:2.066,x:525.35,y:364.6},0).wait(1).to({scaleX:2.063,scaleY:2.063,x:542.2,y:368.8},0).wait(1).to({scaleX:2.0601,scaleY:2.0601,x:559.05,y:372.95},0).wait(1).to({scaleX:2.0572,scaleY:2.0572,x:575.9,y:377.1},0).wait(1).to({scaleX:2.0542,scaleY:2.0542,x:575.95,y:378.35},0).wait(12));
+	// レイヤー_2
+	this.instance_1 = new lib.シンボル6();
+	this.instance_1.setTransform(356.2,382.45,0.8333,0.8333,0,0,0,218.1,131.9);
+	this.instance_1.alpha = 0.3008;
+	this.instance_1._off = true;
+	this.shape_2 = new cjs.Shape();
+	this.shape_2.graphics.f().s("#009900").ss(2,0,0,4).p("AaK0SQFQgCBZCbQtjHSo0CxQizA4iUAbIhqEiQgDAHgBAGQhVERgtEpQg+GSAKG/IiGAAQgEmBBEnQQArkuBLlQIADgdQgFg7hEgoQgEgBgDgBQgngQgJgEQgKgDgSgKQgcAsisgBI8trdIBThGICjhNQGbhjFpA8QJYBkHNIfIBCDFIBZCAIA5g5ICAnIQCdiLC5hoQGrjuJDgxQAUgCAVgCAAbk4IgBAAQgDgCgDAAA76xZQGAA7FHBnQIaCoGBEfAGxpHQBwhjB7hUQEfjDFchsQACgBADAAQAdgKAdgIAUcwuIIBh2");
+	this.shape_2.setTransform(360.2522,383.8941,0.8333,0.8333);
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.lf(["#69BB00","#83AA3A","#CBCD33","#6BE533"],[0,0.204,0.604,0.863],-209.7,-0.2,209.4,-0.2).s().p("AhYUVQgDmABDnQQArkvBLlQIAEgcQgFg7hFgoIAAgBQgDgCgEAAIgwgTQgKgEgSgKQgbAtisgCI8trcIBThGICjhNQGbhkFpA9QJYBjHMIgIBDDEIBZCAIA5g5ICAnHQCdiMC5hnQGqjvJDgxQFQgBBZCaQtjHTozCxQizA3iVAbIhqEjIgDANQhWEQgtEqQg+GSAKG+gAw1u5QIaCpGAEfQmAkfoaipQlIhmmAg8QGAA8FIBmgAUawwIgFACQlcBskfDDQh8BThvBkQBvhkB8hTQEfjDFchsIAFgCIA5gSIg5ASgAUawwIIBh1g");
+	this.shape_3.setTransform(360.477,384.0393,0.8333,0.8333);
+	this.instance_2 = new lib.シンボル3();
+	this.instance_2.setTransform(359.9,383.9,0.8333,0.8333,0,0,0,209,130.2);
+	this.instance_2._off = true;
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_1}]},43).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.shape_3},{t:this.shape_2}]},1).to({state:[{t:this.instance_2}]},11).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).to({state:[{t:this.instance_2}]},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(43).to({_off:false},0).wait(1).to({regX:218,regY:132,x:356.05,y:382.5,alpha:0.415},0).wait(1).to({alpha:0.53},0).wait(1).to({alpha:0.645},0).wait(1).to({alpha:0.76},0).wait(1).to({alpha:0.875},0).wait(1).to({alpha:0.99},0).to({_off:true},1).wait(37));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(61).to({_off:false},0).wait(1).to({regX:209.4,regY:130.3,x:346.25,y:382.75},0).wait(1).to({x:332.25,y:381.55},0).wait(1).to({x:318.3,y:380.3},0).wait(1).to({x:304.3,y:379.1},0).wait(1).to({x:290.35,y:377.9},0).wait(1).to({x:276.35,y:376.65},0).wait(1).to({x:262.4,y:375.45},0).wait(1).to({x:248.4,y:374.2},0).wait(1).to({x:234.45,y:373},0).wait(1).to({x:220.45,y:371.8},0).wait(1).to({x:206.5,y:370.55},0).wait(1).to({x:192.5,y:369.35},0).wait(1).to({x:178.5,y:368.1},0).wait(13));
+	// 絵
+	this.instance_3 = new lib.シンボル5();
+	this.instance_3.setTransform(375.05,350.05,0.8333,0.8333,0,0,0,292.1,219.1);
+	this.instance_3._off = true;
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(38).to({_off:false},0).wait(1).to({regX:292,regY:219,x:374.95,y:349.9,alpha:0.9},0).wait(1).to({alpha:0.8},0).wait(1).to({alpha:0.7},0).wait(1).to({alpha:0.6},0).wait(1).to({alpha:0.5},0).wait(1).to({alpha:0.4},0).wait(1).to({alpha:0.3},0).to({_off:true},1).wait(41));
+	// レイヤー_1
+	this.instance_4 = new lib.双葉();
+	this.instance_4.setTransform(294.5,371.7,0.1499,0.1499);
+	this.instance_5 = new lib.シンボル4();
+	this.instance_5.setTransform(324.8,394.4,0.8333,0.8333,0,0,0,36.1,27);
+	this.instance_5._off = true;
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_4}]},15).to({state:[{t:this.instance_5}]},9).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[{t:this.instance_5}]},1).to({state:[]},1).wait(49));
+	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(24).to({_off:false},0).wait(1).to({regX:36,scaleX:1.2725,scaleY:1.2725,x:327.9,y:390.5},0).wait(1).to({scaleX:1.7118,scaleY:1.7118,x:331.15,y:386.6},0).wait(1).to({scaleX:2.151,scaleY:2.151,x:334.45,y:382.8},0).wait(1).to({scaleX:2.5902,scaleY:2.5902,x:337.65,y:378.9},0).wait(1).to({scaleX:3.0294,scaleY:3.0294,x:340.9,y:375.05},0).wait(1).to({scaleX:3.4686,scaleY:3.4686,x:344.15,y:371.15},0).wait(1).to({scaleX:3.9079,scaleY:3.9079,x:347.4,y:367.3},0).wait(1).to({scaleX:4.3471,scaleY:4.3471,x:350.65,y:363.4},0).wait(1).to({scaleX:4.7863,scaleY:4.7863,x:353.9,y:359.55},0).wait(1).to({scaleX:5.2255,scaleY:5.2255,x:357.15,y:355.7},0).wait(1).to({scaleX:5.6647,scaleY:5.6647,x:360.4,y:351.8},0).wait(1).to({scaleX:6.104,scaleY:6.104,x:363.65,y:347.95},0).wait(1).to({scaleX:6.5432,scaleY:6.5432,x:366.9,y:344.05},0).to({_off:true},1).wait(49));
+	// 写真
+	this.instance_6 = new lib.畑();
+	this.instance_6.setTransform(210,185,0.8333,0.8333);
+	this.instance_6._off = true;
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(15).to({_off:false},0).to({_off:true},9).wait(63));
+	this._renderFirstFrame();
+}).prototype = p = new lib.AnMovieClip();
+p.nominalBounds = new cjs.Rectangle(377.5,517.4,367.20000000000005,15.100000000000023);
+// library properties:
+lib.properties = {
+	id: 'A9412CF914676040A2A1120D57AA5061',
+	width: 750,
+	height: 700,
+	fps: 12,
+	color: "#FFFFFF",
+	opacity: 1.00,
+	manifest: [
+		{src:"images/hatake_atlas_1.png", id:"hatake_atlas_1"}
+	],
+	preloads: []
+};
+// bootstrap callback support:
+(lib.Stage = function(canvas) {
+	createjs.Stage.call(this, canvas);
+}).prototype = p = new createjs.Stage();
+p.setAutoPlay = function(autoPlay) {
+	this.tickEnabled = autoPlay;
+}
+p.play = function() { this.tickEnabled = true; this.getChildAt(0).gotoAndPlay(this.getTimelinePosition()) }
+p.stop = function(ms) { if(ms) this.seek(ms); this.tickEnabled = false; }
+p.seek = function(ms) { this.tickEnabled = true; this.getChildAt(0).gotoAndStop(lib.properties.fps * ms / 1000); }
+p.getDuration = function() { return this.getChildAt(0).totalFrames / lib.properties.fps * 1000; }
+p.getTimelinePosition = function() { return this.getChildAt(0).currentFrame / lib.properties.fps * 1000; }
+an.bootcompsLoaded = an.bootcompsLoaded || [];
+if(!an.bootstrapListeners) {
+	an.bootstrapListeners=[];
+}
+an.bootstrapCallback=function(fnCallback) {
+	an.bootstrapListeners.push(fnCallback);
+	if(an.bootcompsLoaded.length > 0) {
+		for(var i=0; i<an.bootcompsLoaded.length; ++i) {
+			fnCallback(an.bootcompsLoaded[i]);
+		}
+	}
+};
+an.compositions = an.compositions || {};
+an.compositions['A9412CF914676040A2A1120D57AA5061'] = {
+	getStage: function() { return exportRoot.stage; },
+	getLibrary: function() { return lib; },
+	getSpriteSheet: function() { return ss; },
+	getImages: function() { return img; }
+};
+an.compositionLoaded = function(id) {
+	an.bootcompsLoaded.push(id);
+	for(var j=0; j<an.bootstrapListeners.length; j++) {
+		an.bootstrapListeners[j](id);
+	}
+}
+an.getComposition = function(id) {
+	return an.compositions[id];
+}
+an.makeResponsive = function(isResp, respDim, isScale, scaleType, domContainers) {		
+	var lastW, lastH, lastS=1;		
+	window.addEventListener('resize', resizeCanvas);		
+	resizeCanvas();		
+	function resizeCanvas() {			
+		var w = lib.properties.width, h = lib.properties.height;			
+		var iw = window.innerWidth, ih=window.innerHeight;			
+		var pRatio = window.devicePixelRatio || 1, xRatio=iw/w, yRatio=ih/h, sRatio=1;			
+		if(isResp) {                
+			if((respDim=='width'&&lastW==iw) || (respDim=='height'&&lastH==ih)) {                    
+				sRatio = lastS;                
+			}				
+			else if(!isScale) {					
+				if(iw<w || ih<h)						
+					sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==1) {					
+				sRatio = Math.min(xRatio, yRatio);				
+			}				
+			else if(scaleType==2) {					
+				sRatio = Math.max(xRatio, yRatio);				
+			}			
+		}
+		domContainers[0].width = w * pRatio * sRatio;			
+		domContainers[0].height = h * pRatio * sRatio;
+		domContainers.forEach(function(container) {				
+			container.style.width = w * sRatio + 'px';				
+			container.style.height = h * sRatio + 'px';			
+		});
+		stage.scaleX = pRatio*sRatio;			
+		stage.scaleY = pRatio*sRatio;
+		lastW = iw; lastH = ih; lastS = sRatio;            
+		stage.tickOnUpdate = false;            
+		stage.update();            
+		stage.tickOnUpdate = true;		
+	}
+}
+an.handleSoundStreamOnTick = function(event) {
+	if(!event.paused){
+		var stageChild = stage.getChildAt(0);
+		if(!stageChild.paused){
+			stageChild.syncStreamSounds();
+		}
+	}
+}
+})(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+var createjs, AdobeAn;
+</script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("A9412CF914676040A2A1120D57AA5061");
+	var lib=comp.getLibrary();
+	var loader = new createjs.LoadQueue(false);
+	loader.addEventListener("fileload", function(evt){handleFileLoad(evt,comp)});
+	loader.addEventListener("complete", function(evt){handleComplete(evt,comp)});
+	var lib=comp.getLibrary();
+	loader.loadManifest(lib.properties.manifest);
+}
+function handleFileLoad(evt, comp) {
+	var images=comp.getImages();	
+	if (evt && (evt.item.type == "image")) { images[evt.item.id] = evt.result; }	
+}
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	var queue = evt.target;
+	var ssMetadata = lib.ssMetadata;
+	for(i=0; i<ssMetadata.length; i++) {
+		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
+	}
+	exportRoot = new lib.もと畑B_HTML5Canvas();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(false,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+<!-- write your code here -->
+</head>
+<body onload="init();" style="margin:0px;">
+	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:750px; height:700px">
+		<canvas id="canvas" width="750" height="700" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:750px; height:700px; position: absolute; left: 0px; top: 0px; display: block;">
+		</div>
+	</div>
+</body>
+</html>
