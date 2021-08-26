@@ -1,0 +1,12 @@
+<body>
+  <script>
+		function popupNonBlock() {
+			var win = window.open("", "child", "width=400, height=300");
+			win.document.body.innerHTML = "loading...";
+			location.href = 'opener.html';
+		}
+	</script>
+
+	<a href="opener.html">block</a>
+	<a href="javascript: popupNonBlock()">non block</a>
+</body>
